@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pract02';
+  name: string = '';
+
+  onClearField() {
+    this.name = '';
+  }
 }
